@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "thp_button_Anqd7h": {
       "type": "thp-button",
       "blocks": {
@@ -31,13 +24,40 @@
       ],
       "settings": {
         "bg-color": "#aca896",
-        "pad-tb": 20,
+        "pad-tb": 10,
+        "pad-mob-tb": 15
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "thp_button_TCjzNp": {
+      "type": "thp-button",
+      "blocks": {
+        "product_4UKEHC": {
+          "type": "Product",
+          "settings": {
+            "my-product": "golden-salve-p-343"
+          }
+        }
+      },
+      "block_order": [
+        "product_4UKEHC"
+      ],
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 10,
         "pad-mob-tb": 15
       }
     }
   },
   "order": [
+    "thp_button_Anqd7h",
     "main",
-    "thp_button_Anqd7h"
+    "thp_button_TCjzNp"
   ]
 }
