@@ -24,8 +24,8 @@
       ],
       "settings": {
         "bg-color": "#aca896",
-        "pad-tb": 60,
-        "pad-mob-tb": 30
+        "pad-tb": 20,
+        "pad-mob-tb": 15
       }
     },
     "main": {
