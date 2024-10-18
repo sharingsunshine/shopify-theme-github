@@ -1,6 +1,101 @@
+
+
+<style>
+.section-{{section.id}}{
+background: {{section.settings.bg-color}};
+padding: {{section.settings.pad-tb}}px;
+}
+.section-{{section.id}} .product-form__submit{
+width: 15% !important;
+margin-top: 20px !important;
+}
+@media(max-width:749px){
+.section-{{section.id}}{
+padding: {{section.settings.pad-mob-tb}}px;
+}
+}
+</style>
+
+<section class="section-{{ section.id }}">
+<div class="page-width">
+{% for block in section.blocks %}
+{% if block.settings.my-product %}
+{% assign product = all_products[block.settings.my-product] %}
+{%- assign product_form_id = 'product-form-' | append: section.id -%}
+<div class="product">
+<img src="{{ product.featured_media | img_url }}" />
+<div class="product__title" {{ product.shopify_attributes }}>
+<!-- <h1>{{ product.title | escape }}</h1> -->
+<a href="{{ product.url }}" class="product__title">
+<h2 class="h3">
+{{ product.title | escape }}
+</h2>
+</a>
+</div>
+<div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+{%- render 'price',
+product: product,
+
+-%}
+</div>
+
+{%- render 'buy-buttons',
+
+product: product,
+product_form_id: product_form_id,
+section_id: section.id,
+
+-%}
+
+</div>
+{% endif %}
+{% endfor %}
+</div>
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+"name": "My Product Section",
+"settings": [
+{
+"type": "color",
+"label": "Section Background Color",
+"id": "bg-color",
+"default":"#ffffff"
+},
+{
+"type": "number",
+"label": "Section Padding desktop",
+"id": "pad-tb",
+"default":60,
+"info": "This applies padding on top and bottom of the section for desktop"
+},
+{
+"type": "number",
+"label": "Section Padding Mobile",
+"id": "pad-mob-tb",
+"default":30,
+"info": "This applies padding on top and bottom of the section for mobile"
+}
+],
+"blocks": [
+{
+"type": "Product",
+"name": "product block",
+"settings": [
+{
+"type": "product",
+"id": "my-product",
+"label": "Choose product to show"
+}
+]
+}
+],
+"presets": [
+{
+"name": "My Product Section",
+
+}
+]
+}
 {% endschema %}
