@@ -37,6 +37,17 @@
     },
     "thp_button_EhtKkh": {
       "type": "thp-button",
+      "blocks": {
+        "product_GUiKGa": {
+          "type": "Product",
+          "settings": {
+            "my-product": "cleanstart-cleanse-detox-program-wild-berry-vegcaps"
+          }
+        }
+      },
+      "block_order": [
+        "product_GUiKGa"
+      ],
       "settings": {
         "bg-color": "#aca896",
         "pad-tb": 20,
