@@ -34,10 +34,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "thp_button_EhtKkh": {
+      "type": "thp-button",
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 20,
+        "pad-mob-tb": 15
+      }
     }
   },
   "order": [
     "thp_button_D33VLV",
-    "main"
+    "main",
+    "thp_button_EhtKkh"
   ]
 }
