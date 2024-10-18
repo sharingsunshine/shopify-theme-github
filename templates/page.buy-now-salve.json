@@ -15,9 +15,18 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "thp_button_Anqd7h": {
+      "type": "thp-button",
+      "settings": {
+        "bg-color": "#ffffff",
+        "pad-tb": 20,
+        "pad-mob-tb": 15
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "thp_button_Anqd7h"
   ]
 }
