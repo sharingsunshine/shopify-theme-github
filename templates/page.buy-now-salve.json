@@ -18,8 +18,19 @@
     },
     "thp_button_Anqd7h": {
       "type": "thp-button",
+      "blocks": {
+        "product_GLCT8Q": {
+          "type": "Product",
+          "settings": {
+            "my-product": "golden-salve-p-343"
+          }
+        }
+      },
+      "block_order": [
+        "product_GLCT8Q"
+      ],
       "settings": {
-        "bg-color": "#ffffff",
+        "bg-color": "#aca896",
         "pad-tb": 20,
         "pad-mob-tb": 15
       }
