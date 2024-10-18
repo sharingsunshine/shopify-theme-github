@@ -1,1 +1,43 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "thp_button_D33VLV": {
+      "type": "thp-button",
+      "blocks": {
+        "product_jPegaj": {
+          "type": "Product",
+          "settings": {
+            "my-product": "cleanstart-cleanse-detox-program-wild-berry-vegcaps"
+          }
+        }
+      },
+      "block_order": [
+        "product_jPegaj"
+      ],
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 60,
+        "pad-mob-tb": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "thp_button_D33VLV",
+    "main"
+  ]
+}
