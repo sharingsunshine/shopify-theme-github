@@ -23,10 +23,10 @@
         "product_jPegaj"
       ],
       "custom_css": [
-        "div {color:black; font-weight:bold;}"
+        "div {color: black; font-weight: bold;}"
       ],
       "settings": {
-        "bg-color": "#aca896",
+        "bg-color": "#ffffff",
         "pad-tb": 20,
         "pad-mob-tb": 15
       }
