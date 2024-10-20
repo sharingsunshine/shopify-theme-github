@@ -24,10 +24,10 @@
       ],
       "custom_css": [
         "div {color: black; font-weight: bold;}",
-        "div.product__title a {color: black !important; font-weight: bold;}"
+        "section.section-template--17643591925959__thp_button_D33VLV h2 {color: black; font-weight: bold;}"
       ],
       "settings": {
-        "bg-color": "#ffffff",
+        "bg-color": "#aca896",
         "pad-tb": 20,
         "pad-mob-tb": 15,
         "color_scheme": "scheme-4"
