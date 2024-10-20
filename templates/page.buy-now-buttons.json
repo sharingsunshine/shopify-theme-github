@@ -24,7 +24,7 @@
       ],
       "custom_css": [
         "div {color: black; font-weight: bold;}",
-        "div.pag {color: black !important; font-weight: bold;}"
+        "div.product__title a {color: black !important; font-weight: bold;}"
       ],
       "settings": {
         "bg-color": "#ffffff",
