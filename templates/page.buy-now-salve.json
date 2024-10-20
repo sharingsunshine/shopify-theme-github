@@ -24,8 +24,8 @@
       ],
       "custom_css": [
         "div {color: black; font-weight: bold;}",
-        "section.section-template--17643591925959__thp_button_D33VLV h2 {color: black; font-weight: bold;}",
-        "section.section-template--17643591925959__thp_button_D33VLV h2:hover {color:red;}"
+        "section.section-template--17644301811911__thp_button_Anqd7h h2 {color: black; font-weight: bold;}",
+        "section.section-template--17644301811911__thp_button_Anqd7h h2:hover {color: red;}"
       ],
       "settings": {
         "bg-color": "#aca896",
