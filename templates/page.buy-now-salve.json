@@ -22,10 +22,16 @@
       "block_order": [
         "product_GLCT8Q"
       ],
+      "custom_css": [
+        "div {color: black; font-weight: bold;}",
+        "section.section-template--17643591925959__thp_button_D33VLV h2 {color: black; font-weight: bold;}",
+        "section.section-template--17643591925959__thp_button_D33VLV h2:hover {color:red;}"
+      ],
       "settings": {
         "bg-color": "#aca896",
         "pad-tb": 10,
-        "pad-mob-tb": 15
+        "pad-mob-tb": 15,
+        "color_scheme": ""
       }
     },
     "main": {
@@ -51,7 +57,8 @@
       "settings": {
         "bg-color": "#aca896",
         "pad-tb": 10,
-        "pad-mob-tb": 15
+        "pad-mob-tb": 15,
+        "color_scheme": ""
       }
     }
   },
