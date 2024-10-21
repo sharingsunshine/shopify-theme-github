@@ -24,7 +24,7 @@
       ],
       "custom_css": [
         "div {color: black; font-weight: bold;}",
-        " @media(max-device-width:749px){div.product{color:black; width:70%;}}"
+        "@media (max-device-width: 749px) {div.product {color: black; width: 90%; }}"
       ],
       "settings": {
         "bg-color": "#aca896",
