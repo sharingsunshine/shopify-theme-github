@@ -17,9 +17,17 @@ padding: {{section.settings.pad-mob-tb}}px;
   
 }
 }
-
+@media(max-device-width:749px){
   .section-{{ section.id }} .page-width {
     max-width:70%;
+    text-align:left;
+    background-color:white;
+    color:black !important;
+    margin-left:-30px;
+  }
+}
+  .section-{{ section.id }} .page-width {
+    max-width:30%;
     text-align:left;
     background-color:white;
     color:black !important;
