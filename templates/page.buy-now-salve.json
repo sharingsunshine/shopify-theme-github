@@ -23,8 +23,7 @@
         "product_GLCT8Q"
       ],
       "custom_css": [
-        "div {color: black; font-weight: bold;}",
-        "@media (max-device-width: 749px) {div.product {color: black; width: 500px; }}"
+        "div {color: black; font-weight: bold;}"
       ],
       "settings": {
         "bg-color": "#aca896",
