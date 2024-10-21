@@ -52,6 +52,9 @@
       "block_order": [
         "product_4UKEHC"
       ],
+      "custom_css": [
+        "div {color: black; font-weight: bold;}"
+      ],
       "settings": {
         "bg-color": "#aca896",
         "pad-tb": 10,
