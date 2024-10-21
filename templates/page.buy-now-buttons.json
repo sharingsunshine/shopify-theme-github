@@ -23,7 +23,9 @@
         "product_jPegaj"
       ],
       "custom_css": [
-
+        "div {color: black; font-weight: bold;}",
+        "section.section-template--17643591925959__thp_button_D33VLV h2 {color: black; font-weight: bold;}",
+        "section.section-template--17643591925959__thp_button_D33VLV h2:hover {color: red;}"
       ],
       "settings": {
         "bg-color": "#aca896",
