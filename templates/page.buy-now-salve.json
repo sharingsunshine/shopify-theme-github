@@ -23,7 +23,8 @@
         "product_GLCT8Q"
       ],
       "custom_css": [
-        "div {color: black; font-weight: bold;}"
+        "div {color: black; font-weight: bold;}",
+        " @media(max-device-width:749px){div.product{color:black; width:70%;}}"
       ],
       "settings": {
         "bg-color": "#aca896",
@@ -54,7 +55,7 @@
       ],
       "custom_css": [
         "div {color: black; font-weight: bold;}",
-        " @media(max-device-width:749px){div.product{color:black; width:70%;}}"
+        "@media (max-device-width: 749px) {div.product {color: black; width: 70%; }}"
       ],
       "settings": {
         "bg-color": "#aca896",
