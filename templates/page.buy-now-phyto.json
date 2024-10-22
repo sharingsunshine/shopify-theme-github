@@ -41,6 +41,17 @@
     },
     "thp_button_9jWFgd": {
       "type": "thp-button",
+      "blocks": {
+        "product_7eYNxE": {
+          "type": "Product",
+          "settings": {
+            "my-product": "phyto-soy-p-530"
+          }
+        }
+      },
+      "block_order": [
+        "product_7eYNxE"
+      ],
       "custom_css": [
         "div {color: black; font-weight: bold;}"
       ],
