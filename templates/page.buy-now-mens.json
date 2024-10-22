@@ -9,15 +9,63 @@
  */
 {
   "sections": {
+    "thp_button_Qgpega": {
+      "type": "thp-button",
+      "blocks": {
+        "product_8KpJzJ": {
+          "type": "Product",
+          "settings": {
+            "my-product": "mens-formula-w-lycopene-p-235"
+          }
+        }
+      },
+      "block_order": [
+        "product_8KpJzJ"
+      ],
+      "custom_css": [
+        "div {color: black; font-weight: bold;}"
+      ],
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 20,
+        "pad-mob-tb": 15,
+        "color_scheme": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "thp_button_nqg4AD": {
+      "type": "thp-button",
+      "blocks": {
+        "product_U63QgR": {
+          "type": "Product",
+          "settings": {
+            "my-product": "mens-formula-w-lycopene-p-235"
+          }
+        }
+      },
+      "block_order": [
+        "product_U63QgR"
+      ],
+      "custom_css": [
+        "div {color: black; font-weight: bold;}"
+      ],
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 20,
+        "pad-mob-tb": 15,
+        "color_scheme": ""
+      }
     }
   },
   "order": [
-    "main"
+    "thp_button_Qgpega",
+    "main",
+    "thp_button_nqg4AD"
   ]
 }
