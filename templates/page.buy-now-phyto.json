@@ -9,15 +9,19 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "thp_button_BGcF3r": {
       "type": "thp-button",
+      "blocks": {
+        "product_FUmNrF": {
+          "type": "Product",
+          "settings": {
+            "my-product": "phyto-soy-p-530"
+          }
+        }
+      },
+      "block_order": [
+        "product_FUmNrF"
+      ],
       "custom_css": [
         "div {color: black; font-weight: bold;}"
       ],
@@ -27,10 +31,30 @@
         "pad-mob-tb": 15,
         "color_scheme": ""
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "thp_button_9jWFgd": {
+      "type": "thp-button",
+      "custom_css": [
+        "div {color: black; font-weight: bold;}"
+      ],
+      "settings": {
+        "bg-color": "#aca896",
+        "pad-tb": 20,
+        "pad-mob-tb": 15,
+        "color_scheme": ""
+      }
     }
   },
   "order": [
+    "thp_button_BGcF3r",
     "main",
-    "thp_button_BGcF3r"
+    "thp_button_9jWFgd"
   ]
 }
